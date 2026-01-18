@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- tailwindcss cdn  -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- google cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>TechWave</title>
+  </head>
+  <body>
+    <!-- <header><section> -->
+    <header class="bg-[#1A0B2E]">
+      <div class="flex justify-between items-center p-4 max-w-[1050px] mx-auto">
+        <div>
+          <h1 class="font-bold text-2xl text-white">
+            Tech
+            <span
+              class="font-bold text-2xl bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-600 bg-clip-text text-transparent"
+              >Wave</span
+            >
+          </h1>
+        </div>
+        <div>
+          <ul class="flex items-center gap-4 p-4 text-white font-semibold">
+            <li><a href="">About</a></li>
+            <li><a href="">Episodes</a></li>
+            <li><a href="">Host</a></li>
+          </ul>
+        </div>
+        <div>
+          <button
+            class="py-3 cursor-pointer px-5 bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] rounded-[20px] text-white font-semibold"
+          >
+            Subscribe <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- <Hero><section> -->
+    <section
+      class="relative pt-5 flex flex-col items-center mb-[50px] justify-center bg-[#0d0221] bg-[url('./img/hero-bg.png')] bg-cover bg-center"
+    >
+      <!-- img 1  -->
+      <div class="relative flex items-center justify-center">
+        <img
+          src="assets/hero-circle.png"
+          alt="Gradient Circle"
+          class="h-64 w-64 md:h-80 md:w-80"
+        />
+
+        <img src="assets/microphone.png" alt="Microphone" class="absolute" />
+
+        <span
+          class="absolute right-4 top-4 rounded-full bg-green-500 px-3 py-1 text-xs font-bold text-black shadow-lg"
+        >
+          NEW
+        </span>
+        <!-- img 2  -->
+      </div>
+
+      <div class="mt-8 text-center mb-5 text-white">
+        <h1 class="text-5xl font-bold tracking-tight">TechWave</h1>
+        <p class="mt-4 text-gray-300">
+          Your daily dose of tech insights, productivity hacks, and personal
+          growth
+        </p>
+
+        <div class="mt-8 flex justify-center gap-4">
+          <button
+            class="flex items-center gap-2 rounded-fullpy-3 cursor-pointer px-5 bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] rounded-[20px] text-white font-semibold"
+          >
+            <img src="assets/spotify.png" alt="" />
+            Listen On Spotify
+          </button>
+          <button
+            class="flex items-center gap-2 rounded-full border border-green-500 px-6 py-2 font-semibold text-green-500 transition hover:bg-green-500 hover:text-white"
+          >
+            <img src="assets/message.png" alt="" />
+            Subscribe
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- items-section  -->
+  </body>
+</html>
