@@ -1,1 +1,6 @@
 @import "tailwindcss";
+@media screen and (max-width: 576px) {
+  .itesms {
+    display: none;
+  }
+}
